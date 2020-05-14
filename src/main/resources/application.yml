@@ -1,0 +1,7 @@
+spring:
+  devtools:
+    restart:
+      #热插拔开关
+      enabled: true
+  application:
+    name: devtools
