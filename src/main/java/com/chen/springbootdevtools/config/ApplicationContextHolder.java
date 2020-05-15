@@ -4,12 +4,14 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.stereotype.Component;
 
 /**
  * @Author: Aaron chen
  * @Date: 2020/5/16 1:43
  */
 @Slf4j
+@Component
 public class ApplicationContextHolder implements ApplicationContextAware {
     private static ApplicationContext applicationContext = null;
 
